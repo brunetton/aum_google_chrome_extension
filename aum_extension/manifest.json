@@ -1,7 +1,7 @@
 {
   "name": "AUM extension",
-  "version": "0.9",
-  "description": "Makes possible to open profiles in tabs on www.adopteunmec.com (adoptes un mec)",
+  "version": "0.9.1",
+  "description": "Makes possible to open profiles in tabs on www.adopteunmec.com (adopte un mec)",
   "icons": {"128": "icon-128.png"},
   "background_page": "background.html",
   "permissions": ["tabs"],
