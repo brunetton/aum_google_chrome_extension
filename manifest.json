@@ -1,0 +1,14 @@
+{
+  "name": "Tabbed adopte un mec",
+  "version": "0.9.2",
+  "description": "Allows opening profiles in tabs on www.adopteunmec.com dating website",
+  "icons": {"128": "icon-128.png"},
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["http://www.adopteunmec.com/*"],
+      "js": ["jquery-1.4.2.min.js", "aum.js"],
+      "all_frames": true
+    }
+  ]
+}
