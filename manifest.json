@@ -7,6 +7,11 @@
   "content_scripts": [
     {
       "matches": ["http://www.adopteunmec.com/*"],
+      "js": ["jquery-1.4.2.min.js", "clean.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://www.adopteunmec.com/*"],
       "js": ["jquery-1.4.2.min.js", "aum.js"],
       "all_frames": true
     }
